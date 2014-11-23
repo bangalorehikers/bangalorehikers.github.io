@@ -1,0 +1,140 @@
+/* =============================
+Home Page Quote
+============================= */
+.homepage-quote {
+  width:950px;
+  margin:0 auto 20px;
+  padding-top:10px;
+  border-bottom:1px solid #eee;
+}
+.homepage-quote blockquote {
+  color:#333;
+  font-family:Arial,Sans-serif,Verdana;
+  font-size:24px;
+  line-height:1.2;
+  text-align:justify;
+  padding:0 0 0 68px;
+  margin:10px 50px;
+  position:relative;
+}
+.homepage-quote blockquote:before {
+  position:absolute;
+  width:56px;
+  height:50px;
+  content:".";
+  font-size:0;
+  background-image:url('http://2.bp.blogspot.com/-yrnmjH5zLN0/UwC4uhxlWFI/AAAAAAAAEZE/77HWZ855aIs/s1600/backquote.png');
+  top:0;
+  left:0;
+  background-position: 0 bottom;
+}
+.homepage-quote blockquote:hover:before {
+  background-position: 0 top;
+}
+.homepage-quote blockquote p {
+  display: inline;
+}
+.homepage-quote blockquote span {
+  display:block;
+  text-align:right;
+  font-size:16px;
+  padding:4px 0 0;
+  color:#555;
+  font-family:Arial,Sans-serif,Verdana;
+  font-style:italic;
+}
+/* =============================
+Home Page
+============================= */
+#homepage-wrapper {
+  width:950px;
+  margin:0 auto 20px;
+  padding-top:10px;
+}
+#homepage-columns {
+  font:normal 11px arial;
+  width:950px;
+  margin:0 auto 20px;
+  text-align:$startSide;
+  padding:0 0 20px;
+}
+#homepage-columns h2 {
+  margin:.3em 0 6px;
+  font:600 18px Yanone Kaffeesatz;
+  border-bottom:1px solid #eee;
+  line-height: 1.4em;
+  padding: 0 0 5px;
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  color:#555;
+  text-align:center;
+}
+.homepage-column1, .homepage-column2, .homepage-column3 {
+  width:218px;
+  float:left;
+  margin:3px 26px 3px 0;
+}
+.homepage-column4 {
+  width:218px;
+  float:right;
+  margin:3px 0 3px 0;
+}
+#homepage-col1, #homepage-col2, #homepage-col3, #homepage-col4 {
+  text-align:justify;
+  color:#555;
+  line-height:17.5px;
+  padding:8px 10px 8px 10px;
+  height:140px;
+  position:relative;
+  background:#fbfbfb;
+}
+#homepage-col1 a, #homepage-col2 a, #homepage-col3 a, #homepage-col4 a {
+  color:#$linkcolor;
+}
+#homepage-link-outer {
+  border:1px solid #eee;
+  background:#fff;
+  height:160px;
+  width:160px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.homepage-link {
+  width:150px;
+  height:150px;
+  margin:5px;
+  background:#f0f6f4;
+}
+.homepage-link1 a{
+  background:url("http://4.bp.blogspot.com/-plxnSUO-qI0/UwC4unNQfDI/AAAAAAAAEZA/D1L_EVXLP2g/s1600/about.png") no-repeat;
+}
+.homepage-link2 a{
+  background:url("http://3.bp.blogspot.com/-qFxWtWqxDxs/UwC4xPZRQ_I/AAAAAAAAEZ0/N5DI_QNpQh0/s1600/membership.png") no-repeat;
+}
+.homepage-link3 a{
+  background:url("http://3.bp.blogspot.com/-mwxxOk48gtU/UwC4voahw6I/AAAAAAAAEZY/RDDnx_tf2H0/s1600/events.png") no-repeat;
+}
+.homepage-link4 a{
+  background:url("http://4.bp.blogspot.com/-LH12juxEoDc/UwC4wMrHIBI/AAAAAAAAEZg/kAI3O_79jR0/s1600/gallery.png") no-repeat;
+}
+.homepage-link a {
+  display: block;
+  margin:0;
+  width:150px;
+  height:150px;
+  float:top;
+  text-indent: -9999px;
+  background-position: 0 bottom;
+}
+.homepage-link a:hover {
+  background-position: 0 top;
+  text-decoration: none;
+}
+.homepage-button {
+  text-align:center;
+  position:absolute;
+  bottom:10px;
+  left:0;
+  width:100%;
+  background:none;
+}
