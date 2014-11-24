@@ -49,7 +49,7 @@ Home Page
 #homepage-wrapper {
   width:950px;
   margin:0 auto 20px;
-  padding-top:10px;
+  padding:10px 0 5px;
   border-bottom:1px solid #eee;
 }
 #homepage-columns {
