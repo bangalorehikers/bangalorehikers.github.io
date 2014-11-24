@@ -26,9 +26,10 @@
 }
 #sb-wrapper-inner{
  position:relative;
- border:1px solid #303030;
+ border:2px solid #ffa853;
  overflow:hidden;
  height:100px;
+ box-shadow:0 0 8px 1px #ffa853;
 }
 #sb-body{
  position:relative;
