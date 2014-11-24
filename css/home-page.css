@@ -50,6 +50,7 @@ Home Page
   width:950px;
   margin:0 auto 20px;
   padding-top:10px;
+  border-bottom:1px solid #eee;
 }
 #homepage-columns {
   font:normal 11px arial;
