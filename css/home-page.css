@@ -25,7 +25,7 @@ Home Page Quote
   font-size:0;
   background-image:url('http://2.bp.blogspot.com/-yrnmjH5zLN0/UwC4uhxlWFI/AAAAAAAAEZE/77HWZ855aIs/s1600/backquote.png');
   top:10px;
-  left:0;
+  left:10px;
   background-position: 0 bottom;
 }
 .homepage-quote blockquote:hover:before {
