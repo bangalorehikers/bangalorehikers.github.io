@@ -8,6 +8,7 @@ Home Page Quote
 }
 .homepage-quote blockquote {
   color:#333;
+  background:#fbfbfb;
   font-family:Arial,Sans-serif,Verdana;
   font-size:24px;
   font-style:italic;
