@@ -5,6 +5,7 @@ Home Page Quote
   width:950px;
   margin:0 auto;
   border-bottom:1px solid #eee;
+  display:none;
 }
 .homepage-quote blockquote {
   color:#333;
@@ -22,7 +23,7 @@ Home Page Quote
   position:absolute;
   width:56px;
   height:50px;
-  content:".";
+  content:" ";
   font-size:0;
   background-image:url('http://2.bp.blogspot.com/-yrnmjH5zLN0/UwC4uhxlWFI/AAAAAAAAEZE/77HWZ855aIs/s1600/backquote.png');
   top:10px;
