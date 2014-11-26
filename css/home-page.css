@@ -3,18 +3,18 @@ Home Page Quote
 ============================= */
 .homepage-quote {
   width:950px;
-  margin:0 auto 20px;
-  padding-top:10px;
+  margin:0 auto;
   border-bottom:1px solid #eee;
 }
 .homepage-quote blockquote {
   color:#333;
   font-family:Arial,Sans-serif,Verdana;
   font-size:24px;
+  font-style:italic;
   line-height:1.2;
   text-align:justify;
-  padding:0 0 0 68px;
-  margin:10px 50px;
+  padding:10px 10px 10px 78px;
+  margin:0 50px;
   position:relative;
 }
 .homepage-quote blockquote:before {
