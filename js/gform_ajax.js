@@ -21,7 +21,36 @@ Post.Send = function(form){
 Post.OnResponse = function(httpReqObj, gfid){
 	switch(httpReqObj.status){
 		case 200:
-			document.getElementById('scrapped-form-' + gfid).innerHTML = httpReqObj.responseText;
+			var html_obj = document.createElement('div');
+			html_obj.innerHTML = httpReqObj.responseText;
+			var parent_element = document.getElementById('scrapped-form-' + gfid);
+			while (parent_element.firstChild) {
+				parent_element.removeChild(parent_element.firstChild);
+			}
+			if (html_obj.hasChildNodes()) {
+				var elements = html_obj.childNodes;
+				for(var i=0; i<elements.length; i++) {
+					var element = elements[i];
+					var tagname = '';
+					try { tagname = element.tagName.toLowerCase() } catch(e) {}
+					if (tagname == 'script'){
+						try {
+							if (element.src){
+								var scr = document.createElement("script");
+								scr.type = 'text/javascript';
+								scr.src = element.src;
+								parent_element.appendChild(scr);
+							} else {
+								var scr = element.innerHTML;
+								parent_element.appendChild(element);
+								eval(scr);
+							}
+						} catch(e) {}
+					} else {
+						parent_element.appendChild(element);
+					}
+				}
+			}
 			break;
 		case 400:
 			document.getElementById('scrapped-form-' + gfid).innerHTML = '<p class="error"><b>Oops!</b><br>HTTP Error: 400 Bad Request<br>Requested form submission not supported.</p>';
