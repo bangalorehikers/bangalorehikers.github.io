@@ -1,0 +1,5 @@
+.tbox {position:absolute;display:none;padding:14px 17px;z-index:900}
+.tinner {padding:15px;background:#fff url(images/preload.gif) no-repeat 50% 50%;border:2px solid #ffa853;box-shadow: 0 0 8px 1px #ffa853;}
+.tmask {position:absolute;display:none;top:0px;left:0px;height:100%;width:100%;background:#000;z-index:800}
+.tclose {position:absolute;top:0px;right:0px;width:30px;height:30px;cursor:pointer;background:url(images/close.png) no-repeat}
+.tclose:hover {background-position:0 -30px}
