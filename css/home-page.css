@@ -142,12 +142,12 @@ Home Page
   background:none;
 }
 #homepage-index-header {
-  margin:5px;
+  margin-bottom:5px;
+  border-bottom:1px solid #ddd;
 }
 #homepage-index-header h3 {
-  margin:0 0 5px;
+  margin:0 5px;
   font:300 33px Yanone Kaffeesatz;
   text-transform:uppercase;
-  border-bottom:1px solid #ddd;
   letter-spacing:1px;
 }
