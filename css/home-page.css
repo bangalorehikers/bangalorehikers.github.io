@@ -2,7 +2,7 @@
 Home Page Quote
 ============================= */
 .homepage-quote {
-  width:950px;
+  width:960px;
   margin:0 auto;
   border-bottom:1px solid #eee;
   display:none;
@@ -49,14 +49,14 @@ Home Page Quote
 Home Page
 ============================= */
 #homepage-wrapper {
-  width:950px;
+  width:960px;
   margin:0 auto 20px;
   padding:10px 0 5px;
   border-bottom:1px solid #eee;
 }
 #homepage-columns {
   font:normal 11px arial;
-  width:950px;
+  width:960px;
   margin:0 auto 20px;
   text-align:$startSide;
   padding:0 0 20px;
